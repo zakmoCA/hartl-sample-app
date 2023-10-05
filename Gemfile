@@ -3,6 +3,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.4"
 
+gem 'guard', '~> 2.18'
+
+gem 'minitest', '~> 5.8', '>= 5.8.4'
+
+gem 'minitest-reporters', '~> 1.1', '>= 1.1.11'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.8"
 
